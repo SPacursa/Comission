@@ -8,14 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+class ViewController: UIViewController
+{
+    @IBOutlet weak var commissionPayTextField: UITextField!
+  @IBOutlet weak var totalPayLabel: UILabel!
+   
+    let basePay:Int = 500
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        //sefsfsfsfssfsfsfs
-        //sdfefjjjjjjjjjjjj
+
     }
 
-
+    @IBAction func calculateOnTapped(_ sender: UIButton) {
+    }
+    
+    func getInput() -> Double
+    {
+        return 13.97
+    }
 }
 
